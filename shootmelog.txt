@@ -1,0 +1,2616 @@
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<message
+from="163.17.21.186:5060" 
+to="163.17.21.86:5040" 
+time="1528105732814"
+isSender="false" 
+transactionId="z9hg4bkc582.3ba79ac3.0" 
+callId="ba5edb17b80847eb1cf54dfdf293a6af@192.168.0.131" 
+firstLine="INVITE sip:test1@163.17.21.86:5040;transport=udp SIP/2.0" 
+>
+<![CDATA[INVITE sip:test1@163.17.21.86:5040;transport=udp SIP/2.0
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Call-ID: ba5edb17b80847eb1cf54dfdf293a6af@192.168.0.131
+CSeq: 1 INVITE
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKc582.3ba79ac3.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKc582.ea2bbe46.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKc582.aa2bbe46.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKc582.eaa79ac3.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKc582.daa79ac3.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-985743030dce01345e0022a72cf8ac71
+Max-Forwards: 12
+Contact: <sip:testB@163.17.21.73:5090;transport=udp>;expires=60;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message,"testB" <sip:testB@163.17.21.73:5090>
+Allow: REGISTER,PRACK,UPDATE,REGISTER,INVITE
+Supported: 100rel,preconditions,path
+Require: sec-agree,preconditions
+Security-Client: ipsec-3gpp; alg=hmac-md5-96;ealg=des-cbc;spi-c=10000;spi-s=10001;port-c=5063;port-s=4166
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=0123456789ABCDEF
+Privacy: header;user
+P-Visited-Network-ID: "open-ims.test","open-ims.test"
+P-Associated-URI: <sip:test1@open-ims.test>,<sip:testB@open-ims.test>
+P-Asserted-Identity: <sip:test1@open-ims.test>,<tel:+1-201-555-0123>
+P-Charging-Function-Addresses: 
+P-Charging-Vector: icid-value=icid;icid-generated-at=icidhost;term-ioi=termIOI;orig-ioi=origIOI
+P-Media-Authorization: 13579bdf,02468ace
+Path: <sip:testB@open-ims.test>,<sip:test1@open-ims.test>
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+My-Header: my header value
+P-Called-Party-ID: <sip:test1@open-ims.test>
+P-hint: I-CSCF rr-enforced
+Route: <sip:test1@open-ims.test>
+Content-Length: 367
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105732859"
+isSender="true" 
+transactionId="z9hg4bkc582.3ba79ac3.0" 
+callId="ba5edb17b80847eb1cf54dfdf293a6af@192.168.0.131" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: ba5edb17b80847eb1cf54dfdf293a6af@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKc582.3ba79ac3.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKc582.ea2bbe46.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKc582.aa2bbe46.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKc582.eaa79ac3.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKc582.daa79ac3.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-985743030dce01345e0022a72cf8ac71
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.186:5060" 
+to="163.17.21.86:5040" 
+time="1528105732908"
+isSender="false" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="INVITE sip:test1@163.17.21.86:5040;transport=udp SIP/2.0" 
+>
+<![CDATA[INVITE sip:test1@163.17.21.86:5040;transport=udp SIP/2.0
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+CSeq: 1 INVITE
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Max-Forwards: 12
+Contact: <sip:testB@163.17.21.73:5090;transport=udp>;expires=60;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message,"testB" <sip:testB@163.17.21.73:5090>
+Allow: REGISTER,PRACK,UPDATE,REGISTER,INVITE
+Supported: 100rel,preconditions,path
+Require: sec-agree,preconditions
+Security-Client: ipsec-3gpp; alg=hmac-md5-96;ealg=des-cbc;spi-c=10000;spi-s=10001;port-c=5063;port-s=4166
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=0123456789ABCDEF
+Privacy: header;user
+P-Visited-Network-ID: "open-ims.test","open-ims.test"
+P-Associated-URI: <sip:test1@open-ims.test>,<sip:testB@open-ims.test>
+P-Asserted-Identity: <sip:test1@open-ims.test>,<tel:+1-201-555-0123>
+P-Charging-Function-Addresses: 
+P-Charging-Vector: icid-value=icid;icid-generated-at=icidhost;term-ioi=termIOI;orig-ioi=origIOI
+P-Media-Authorization: 13579bdf,02468ace
+Path: <sip:testB@open-ims.test>,<sip:test1@open-ims.test>
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+My-Header: my header value
+P-Called-Party-ID: <sip:test1@open-ims.test>
+P-hint: I-CSCF rr-enforced
+Route: <sip:test1@open-ims.test>
+Content-Length: 367
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105732914"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105733866"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58958>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105733918"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58958>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105734372"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58958>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105735374"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58958>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105737377"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58958>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105741380"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58958>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105745380"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58958>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105749389"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58958>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105753392"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58958>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105757395"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58958>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105761401"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58958>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.186:5060" 
+to="163.17.21.86:5040" 
+time="1528105762778"
+isSender="false" 
+transactionId="z9hg4bkc582.3ba79ac3.0:cancel" 
+callId="ba5edb17b80847eb1cf54dfdf293a6af@192.168.0.131" 
+firstLine="CANCEL sip:test1@163.17.21.86:5040;transport=udp SIP/2.0" 
+>
+<![CDATA[CANCEL sip:test1@163.17.21.86:5040;transport=udp SIP/2.0
+Route: <sip:test1@open-ims.test>,<sip:test1@open-ims.test>
+Max-Forwards: 8
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKc582.3ba79ac3.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKc582.ea2bbe46.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKc582.aa2bbe46.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKc582.eaa79ac3.4
+From: <sip:testB@open-ims.test>;tag=12345
+Call-ID: ba5edb17b80847eb1cf54dfdf293a6af@192.168.0.131
+To: <sip:test1@open-ims.test>
+CSeq: 1 CANCEL
+User-Agent: Sip EXpress router(2.1.0-dev1 OpenIMSCore (x86_64/linux))
+P-Called-Party-ID: <sip:test1@open-ims.test>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105762790"
+isSender="true" 
+transactionId="z9hg4bkc582.3ba79ac3.0:cancel" 
+callId="ba5edb17b80847eb1cf54dfdf293a6af@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 CANCEL
+Call-ID: ba5edb17b80847eb1cf54dfdf293a6af@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKc582.3ba79ac3.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKc582.ea2bbe46.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKc582.aa2bbe46.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKc582.eaa79ac3.4
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5040" 
+to="163.17.21.186:5060" 
+time="1528105765403"
+isSender="true" 
+transactionId="z9hg4bk6a47.d5d59896.0" 
+callId="145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 145bf11c65e6fa2f675fb9bf5a4ffd73@192.168.0.131
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.d5d59896.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.07c3c5d.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK6a47.b6c3c5d.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.85d59896.4,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK6a47.75d59896.0,SIP/2.0/UDP 163.17.21.73:5090;branch=z9hG4bK-373333-e1db93c52a641cc5567ec9fb2fd2b481
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58958>
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<message
+from="163.17.21.186:5060" 
+to="163.17.21.86:5080" 
+time="1528106226628"
+isSender="false" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="INVITE sip:test1@163.17.21.86:5080 SIP/2.0" 
+>
+<![CDATA[INVITE sip:test1@163.17.21.86:5080 SIP/2.0
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+CSeq: 1 INVITE
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Max-Forwards: 12
+Contact: <sip:testB@163.17.21.86:5090;transport=udp>;expires=60;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message,"testB" <sip:testB@163.17.21.86:5090>
+Allow: REGISTER,PRACK,UPDATE,REGISTER,INVITE
+Supported: 100rel,preconditions,path
+Require: sec-agree,preconditions
+Security-Client: ipsec-3gpp; alg=hmac-md5-96;ealg=des-cbc;spi-c=10000;spi-s=10001;port-c=5063;port-s=4166
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=0123456789ABCDEF
+Privacy: header;user
+P-Visited-Network-ID: "open-ims.test","open-ims.test"
+P-Associated-URI: <sip:test1@open-ims.test>,<sip:testB@open-ims.test>
+P-Asserted-Identity: <sip:test1@open-ims.test>,<tel:+1-201-555-0123>
+P-Charging-Function-Addresses: 
+P-Charging-Vector: icid-value=icid;icid-generated-at=icidhost;term-ioi=termIOI;orig-ioi=origIOI
+P-Media-Authorization: 13579bdf,02468ace
+Path: <sip:testB@open-ims.test>,<sip:test1@open-ims.test>
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+My-Header: my header value
+P-Called-Party-ID: <sip:test1@open-ims.test>
+P-hint: I-CSCF rr-enforced
+Route: <sip:test1@open-ims.test>
+Content-Length: 367
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106226657"
+isSender="true" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106227663"
+isSender="true" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:53121>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106228170"
+isSender="true" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:53121>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106229171"
+isSender="true" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:53121>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106231170"
+isSender="true" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:53121>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106235175"
+isSender="true" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:53121>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106239177"
+isSender="true" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:53121>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106243183"
+isSender="true" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:53121>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106247190"
+isSender="true" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:53121>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106251192"
+isSender="true" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:53121>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106255197"
+isSender="true" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:53121>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106259201"
+isSender="true" 
+transactionId="z9hg4bka017.3bc4fe61.0" 
+callId="1badd4d813af0d52e19383d4a40ff61d@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 1badd4d813af0d52e19383d4a40ff61d@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.3bc4fe61.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.8528dbb7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKa017.4528dbb7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.2bc4fe61.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKa017.1bc4fe61.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-343438-72cc6195e5f6bb502ead13dbfe9f0f05
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:53121>
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<message
+from="163.17.21.186:5060" 
+to="163.17.21.86:5080" 
+time="1528106295120"
+isSender="false" 
+transactionId="z9hg4bkce42.3dcce0d7.0" 
+callId="daa17734138b1bdcb94723a81e48b253@163.17.21.86" 
+firstLine="INVITE sip:test1@163.17.21.86:5080 SIP/2.0" 
+>
+<![CDATA[INVITE sip:test1@163.17.21.86:5080 SIP/2.0
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Call-ID: daa17734138b1bdcb94723a81e48b253@163.17.21.86
+CSeq: 1 INVITE
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.3dcce0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.b16da557.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.216da557.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.0dcce0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.fccce0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383135-589057eb1f804f038b183ee2f6e79e12
+Max-Forwards: 12
+Contact: <sip:testB@163.17.21.86:5090;transport=udp>;expires=60;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message,"testB" <sip:testB@163.17.21.86:5090>
+Allow: REGISTER,PRACK,UPDATE,REGISTER,INVITE
+Supported: 100rel,preconditions,path
+Require: sec-agree,preconditions
+Security-Client: ipsec-3gpp; alg=hmac-md5-96;ealg=des-cbc;spi-c=10000;spi-s=10001;port-c=5063;port-s=4166
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=0123456789ABCDEF
+Privacy: header;user
+P-Visited-Network-ID: "open-ims.test","open-ims.test"
+P-Associated-URI: <sip:test1@open-ims.test>,<sip:testB@open-ims.test>
+P-Asserted-Identity: <sip:test1@open-ims.test>,<tel:+1-201-555-0123>
+P-Charging-Function-Addresses: 
+P-Charging-Vector: icid-value=icid;icid-generated-at=icidhost;term-ioi=termIOI;orig-ioi=origIOI
+P-Media-Authorization: 13579bdf,02468ace
+Path: <sip:testB@open-ims.test>,<sip:test1@open-ims.test>
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+My-Header: my header value
+P-Called-Party-ID: <sip:test1@open-ims.test>
+P-hint: I-CSCF rr-enforced
+Route: <sip:test1@open-ims.test>
+Content-Length: 367
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106295154"
+isSender="true" 
+transactionId="z9hg4bkce42.3dcce0d7.0" 
+callId="daa17734138b1bdcb94723a81e48b253@163.17.21.86" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: daa17734138b1bdcb94723a81e48b253@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.3dcce0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.b16da557.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.216da557.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.0dcce0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.fccce0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383135-589057eb1f804f038b183ee2f6e79e12
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106296157"
+isSender="true" 
+transactionId="z9hg4bkce42.3dcce0d7.0" 
+callId="daa17734138b1bdcb94723a81e48b253@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: daa17734138b1bdcb94723a81e48b253@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.3dcce0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.b16da557.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.216da557.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.0dcce0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.fccce0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383135-589057eb1f804f038b183ee2f6e79e12
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:63113>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106296659"
+isSender="true" 
+transactionId="z9hg4bkce42.3dcce0d7.0" 
+callId="daa17734138b1bdcb94723a81e48b253@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: daa17734138b1bdcb94723a81e48b253@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.3dcce0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.b16da557.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.216da557.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.0dcce0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.fccce0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383135-589057eb1f804f038b183ee2f6e79e12
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:63113>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106297660"
+isSender="true" 
+transactionId="z9hg4bkce42.3dcce0d7.0" 
+callId="daa17734138b1bdcb94723a81e48b253@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: daa17734138b1bdcb94723a81e48b253@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.3dcce0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.b16da557.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.216da557.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.0dcce0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.fccce0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383135-589057eb1f804f038b183ee2f6e79e12
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:63113>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106299663"
+isSender="true" 
+transactionId="z9hg4bkce42.3dcce0d7.0" 
+callId="daa17734138b1bdcb94723a81e48b253@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: daa17734138b1bdcb94723a81e48b253@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.3dcce0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.b16da557.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.216da557.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.0dcce0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.fccce0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383135-589057eb1f804f038b183ee2f6e79e12
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:63113>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106303668"
+isSender="true" 
+transactionId="z9hg4bkce42.3dcce0d7.0" 
+callId="daa17734138b1bdcb94723a81e48b253@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: daa17734138b1bdcb94723a81e48b253@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.3dcce0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.b16da557.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.216da557.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.0dcce0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.fccce0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383135-589057eb1f804f038b183ee2f6e79e12
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:63113>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106307673"
+isSender="true" 
+transactionId="z9hg4bkce42.3dcce0d7.0" 
+callId="daa17734138b1bdcb94723a81e48b253@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: daa17734138b1bdcb94723a81e48b253@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.3dcce0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.b16da557.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKce42.216da557.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.0dcce0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKce42.fccce0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383135-589057eb1f804f038b183ee2f6e79e12
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:63113>
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<message
+from="163.17.21.186:5060" 
+to="163.17.21.86:5080" 
+time="1528106503406"
+isSender="false" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="INVITE sip:test1@163.17.21.86:5080 SIP/2.0" 
+>
+<![CDATA[INVITE sip:test1@163.17.21.86:5080 SIP/2.0
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+CSeq: 1 INVITE
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Max-Forwards: 12
+Contact: <sip:testB@163.17.21.86:5090;transport=udp>;expires=60;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message,"testB" <sip:testB@163.17.21.86:5090>
+Allow: REGISTER,PRACK,UPDATE,REGISTER,INVITE
+Supported: 100rel,preconditions,path
+Require: sec-agree,preconditions
+Security-Client: ipsec-3gpp; alg=hmac-md5-96;ealg=des-cbc;spi-c=10000;spi-s=10001;port-c=5063;port-s=4166
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=0123456789ABCDEF
+Privacy: header;user
+P-Visited-Network-ID: "open-ims.test","open-ims.test"
+P-Associated-URI: <sip:test1@open-ims.test>,<sip:testB@open-ims.test>
+P-Asserted-Identity: <sip:test1@open-ims.test>,<tel:+1-201-555-0123>
+P-Charging-Function-Addresses: 
+P-Charging-Vector: icid-value=icid;icid-generated-at=icidhost;term-ioi=termIOI;orig-ioi=origIOI
+P-Media-Authorization: 13579bdf,02468ace
+Path: <sip:testB@open-ims.test>,<sip:test1@open-ims.test>
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+My-Header: my header value
+P-Called-Party-ID: <sip:test1@open-ims.test>
+P-hint: I-CSCF rr-enforced
+Route: <sip:test1@open-ims.test>
+Content-Length: 367
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106503436"
+isSender="true" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106504444"
+isSender="true" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51726>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106504950"
+isSender="true" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51726>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106505951"
+isSender="true" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51726>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106507953"
+isSender="true" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51726>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106511958"
+isSender="true" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51726>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106515961"
+isSender="true" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51726>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106519966"
+isSender="true" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51726>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106523971"
+isSender="true" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51726>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106527973"
+isSender="true" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51726>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106531975"
+isSender="true" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51726>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528106535982"
+isSender="true" 
+transactionId="z9hg4bkcbe7.c57761b4.0" 
+callId="c0b3df542fca128737d5eb0b30c270a7@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: c0b3df542fca128737d5eb0b30c270a7@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.c57761b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.c1b467c4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKcbe7.51b467c4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.a57761b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKcbe7.957761b4.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383532-288dee3792b9cffa29e26690e451654c
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51726>
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<message
+from="163.17.21.186:5060" 
+to="163.17.21.86:5080" 
+time="1528107081153"
+isSender="false" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="INVITE sip:test1@163.17.21.86:5080 SIP/2.0" 
+>
+<![CDATA[INVITE sip:test1@163.17.21.86:5080 SIP/2.0
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+CSeq: 1 INVITE
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Max-Forwards: 12
+Contact: <sip:testB@163.17.21.86:5060;transport=udp>;expires=60;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message,"testB" <sip:testB@163.17.21.86:5090>
+Allow: REGISTER,PRACK,UPDATE,REGISTER,INVITE
+Supported: 100rel,preconditions,path
+Require: sec-agree,preconditions
+Security-Client: ipsec-3gpp; alg=hmac-md5-96;ealg=des-cbc;spi-c=10000;spi-s=10001;port-c=5063;port-s=4166
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=0123456789ABCDEF
+Privacy: header;user
+P-Visited-Network-ID: "open-ims.test","open-ims.test"
+P-Associated-URI: <sip:test1@open-ims.test>,<sip:testB@open-ims.test>
+P-Asserted-Identity: <sip:test1@open-ims.test>,<tel:+1-201-555-0123>
+P-Charging-Function-Addresses: 
+P-Charging-Vector: icid-value=icid;icid-generated-at=icidhost;term-ioi=termIOI;orig-ioi=origIOI
+P-Media-Authorization: 13579bdf,02468ace
+Path: <sip:testB@open-ims.test>,<sip:test1@open-ims.test>
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+My-Header: my header value
+P-Called-Party-ID: <sip:test1@open-ims.test>
+P-hint: I-CSCF rr-enforced
+Route: <sip:test1@open-ims.test>
+Content-Length: 367
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528107081179"
+isSender="true" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528107082185"
+isSender="true" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58570>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528107082692"
+isSender="true" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58570>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528107083691"
+isSender="true" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58570>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528107085692"
+isSender="true" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58570>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528107089695"
+isSender="true" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58570>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528107093698"
+isSender="true" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58570>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528107097701"
+isSender="true" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58570>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528107101706"
+isSender="true" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58570>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528107105709"
+isSender="true" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58570>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528107109713"
+isSender="true" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58570>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528107113715"
+isSender="true" 
+transactionId="z9hg4bk7654.86b6f0d7.0" 
+callId="58b3ff977f6673b833255d0d64367260@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 58b3ff977f6673b833255d0d64367260@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.86b6f0d7.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.b76e83b4.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7654.276e83b4.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.36b6f0d7.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7654.26b6f0d7.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383134-78b34e6ea468d65202707a9d8eddd143
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:58570>
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<message
+from="163.17.21.186:5060" 
+to="163.17.21.86:5080" 
+time="1528111822841"
+isSender="false" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="INVITE sip:test1@163.17.21.86:5080 SIP/2.0" 
+>
+<![CDATA[INVITE sip:test1@163.17.21.86:5080 SIP/2.0
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+CSeq: 1 INVITE
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Max-Forwards: 12
+Contact: <sip:testB@163.17.21.86:5060;transport=udp>;expires=60;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message,"testB" <sip:testB@163.17.21.86:5090>
+Allow: REGISTER,PRACK,UPDATE,REGISTER,INVITE
+Supported: 100rel,preconditions,path
+Require: sec-agree,preconditions
+Security-Client: ipsec-3gpp; alg=hmac-md5-96;ealg=des-cbc;spi-c=10000;spi-s=10001;port-c=5063;port-s=4166
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=0123456789ABCDEF
+Privacy: header;user
+P-Visited-Network-ID: "open-ims.test","open-ims.test"
+P-Associated-URI: <sip:test1@open-ims.test>,<sip:testB@open-ims.test>
+P-Asserted-Identity: <sip:test1@open-ims.test>,<tel:+1-201-555-0123>
+P-Charging-Function-Addresses: 
+P-Charging-Vector: icid-value=icid;icid-generated-at=icidhost;term-ioi=termIOI;orig-ioi=origIOI
+P-Media-Authorization: 13579bdf,02468ace
+Path: <sip:testB@open-ims.test>,<sip:test1@open-ims.test>
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+My-Header: my header value
+P-Called-Party-ID: <sip:test1@open-ims.test>
+P-hint: I-CSCF rr-enforced
+Route: <sip:test1@open-ims.test>
+Content-Length: 367
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528111822870"
+isSender="true" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528111823874"
+isSender="true" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51324>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528111824378"
+isSender="true" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51324>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528111825380"
+isSender="true" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51324>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528111827381"
+isSender="true" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51324>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528111831386"
+isSender="true" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51324>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528111835388"
+isSender="true" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51324>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528111839392"
+isSender="true" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51324>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528111843398"
+isSender="true" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51324>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528111847400"
+isSender="true" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51324>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528111851406"
+isSender="true" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51324>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528111855411"
+isSender="true" 
+transactionId="z9hg4bk7aa.05dc2081.0" 
+callId="b6bc53cca4398702bd5914628be8fcd5@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: b6bc53cca4398702bd5914628be8fcd5@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.05dc2081.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.f9c1c8e6.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK7aa.69c1c8e6.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.c4dc2081.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK7aa.b4dc2081.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-373830-436193516acc158a48c2c423d0673993
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:51324>
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<message
+from="163.17.21.186:5060" 
+to="163.17.21.86:5080" 
+time="1528113285242"
+isSender="false" 
+transactionId="z9hg4bkb12b.cb7780d5.0" 
+callId="e92272f0b5b343b57f10524c490251d8@163.17.21.86" 
+firstLine="INVITE sip:test1@163.17.21.86:5080 SIP/2.0" 
+>
+<![CDATA[INVITE sip:test1@163.17.21.86:5080 SIP/2.0
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Call-ID: e92272f0b5b343b57f10524c490251d8@163.17.21.86
+CSeq: 1 INVITE
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.cb7780d5.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.e6a4b505.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.76a4b505.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.ab7780d5.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.9b7780d5.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-363935-dd90098459600bf9f457e9572b23cd6e
+Max-Forwards: 12
+Contact: <sip:testB@163.17.21.86:5060;transport=udp>;expires=60;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message,"testB" <sip:testB@163.17.21.86:5090>
+Allow: REGISTER,PRACK,UPDATE,REGISTER,INVITE
+Supported: 100rel,preconditions,path
+Require: sec-agree,preconditions
+Security-Client: ipsec-3gpp; alg=hmac-md5-96;ealg=des-cbc;spi-c=10000;spi-s=10001;port-c=5063;port-s=4166
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=0123456789ABCDEF
+Privacy: header;user
+P-Visited-Network-ID: "open-ims.test","open-ims.test"
+P-Associated-URI: <sip:test1@open-ims.test>,<sip:testB@open-ims.test>
+P-Asserted-Identity: <sip:test1@open-ims.test>,<tel:+1-201-555-0123>
+P-Charging-Function-Addresses: 
+P-Charging-Vector: icid-value=icid;icid-generated-at=icidhost;term-ioi=termIOI;orig-ioi=origIOI
+P-Media-Authorization: 13579bdf,02468ace
+Path: <sip:testB@open-ims.test>,<sip:test1@open-ims.test>
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+My-Header: my header value
+P-Called-Party-ID: <sip:test1@open-ims.test>
+P-hint: I-CSCF rr-enforced
+Route: <sip:test1@open-ims.test>
+Content-Length: 367
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528113285270"
+isSender="true" 
+transactionId="z9hg4bkb12b.cb7780d5.0" 
+callId="e92272f0b5b343b57f10524c490251d8@163.17.21.86" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: e92272f0b5b343b57f10524c490251d8@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.cb7780d5.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.e6a4b505.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.76a4b505.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.ab7780d5.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.9b7780d5.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-363935-dd90098459600bf9f457e9572b23cd6e
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528113286273"
+isSender="true" 
+transactionId="z9hg4bkb12b.cb7780d5.0" 
+callId="e92272f0b5b343b57f10524c490251d8@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: e92272f0b5b343b57f10524c490251d8@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.cb7780d5.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.e6a4b505.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.76a4b505.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.ab7780d5.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.9b7780d5.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-363935-dd90098459600bf9f457e9572b23cd6e
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:5060>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528113286776"
+isSender="true" 
+transactionId="z9hg4bkb12b.cb7780d5.0" 
+callId="e92272f0b5b343b57f10524c490251d8@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: e92272f0b5b343b57f10524c490251d8@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.cb7780d5.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.e6a4b505.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.76a4b505.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.ab7780d5.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.9b7780d5.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-363935-dd90098459600bf9f457e9572b23cd6e
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:5060>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528113287779"
+isSender="true" 
+transactionId="z9hg4bkb12b.cb7780d5.0" 
+callId="e92272f0b5b343b57f10524c490251d8@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: e92272f0b5b343b57f10524c490251d8@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.cb7780d5.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.e6a4b505.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.76a4b505.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.ab7780d5.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.9b7780d5.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-363935-dd90098459600bf9f457e9572b23cd6e
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:5060>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528113289779"
+isSender="true" 
+transactionId="z9hg4bkb12b.cb7780d5.0" 
+callId="e92272f0b5b343b57f10524c490251d8@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: e92272f0b5b343b57f10524c490251d8@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.cb7780d5.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.e6a4b505.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.76a4b505.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.ab7780d5.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.9b7780d5.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-363935-dd90098459600bf9f457e9572b23cd6e
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:5060>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528113293785"
+isSender="true" 
+transactionId="z9hg4bkb12b.cb7780d5.0" 
+callId="e92272f0b5b343b57f10524c490251d8@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: e92272f0b5b343b57f10524c490251d8@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.cb7780d5.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.e6a4b505.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bKb12b.76a4b505.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.ab7780d5.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bKb12b.9b7780d5.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-363935-dd90098459600bf9f457e9572b23cd6e
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:5060>
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<message
+from="163.17.21.186:5060" 
+to="163.17.21.86:5080" 
+time="1528114768620"
+isSender="false" 
+transactionId="z9hg4bk42b4.68f72637.0" 
+callId="6ce628a9727cc6b4a122e7d562f58351@163.17.21.86" 
+firstLine="INVITE sip:test1@163.17.21.86:5080 SIP/2.0" 
+>
+<![CDATA[INVITE sip:test1@163.17.21.86:5080 SIP/2.0
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Call-ID: 6ce628a9727cc6b4a122e7d562f58351@163.17.21.86
+CSeq: 1 INVITE
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.68f72637.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.70f29c63.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.30f29c63.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.58f72637.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.48f72637.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383334-dc2dab29d6d1ede4ea42b08f6b4f60fa
+Max-Forwards: 12
+Contact: <sip:testB@163.17.21.86:5060;transport=udp>;expires=60;+g.oma.sip-im;language="en,fr";+g.3gpp.smsip;+g.oma.sip-im.large-message,"testB" <sip:testB@163.17.21.86:5090>
+Allow: REGISTER,PRACK,UPDATE,REGISTER,INVITE
+Supported: 100rel,preconditions,path
+Require: sec-agree,preconditions
+Security-Client: ipsec-3gpp; alg=hmac-md5-96;ealg=des-cbc;spi-c=10000;spi-s=10001;port-c=5063;port-s=4166
+P-Access-Network-Info: 3GPP-UTRAN-TDD; utran-cell-id-3gpp=0123456789ABCDEF
+Privacy: header;user
+P-Visited-Network-ID: "open-ims.test","open-ims.test"
+P-Associated-URI: <sip:test1@open-ims.test>,<sip:testB@open-ims.test>
+P-Asserted-Identity: <sip:test1@open-ims.test>,<tel:+1-201-555-0123>
+P-Charging-Function-Addresses: 
+P-Charging-Vector: icid-value=icid;icid-generated-at=icidhost;term-ioi=termIOI;orig-ioi=origIOI
+P-Media-Authorization: 13579bdf,02468ace
+Path: <sip:testB@open-ims.test>,<sip:test1@open-ims.test>
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+My-Header: my header value
+P-Called-Party-ID: <sip:test1@open-ims.test>
+P-hint: I-CSCF rr-enforced
+Route: <sip:test1@open-ims.test>
+Content-Length: 367
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528114768647"
+isSender="true" 
+transactionId="z9hg4bk42b4.68f72637.0" 
+callId="6ce628a9727cc6b4a122e7d562f58351@163.17.21.86" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: 6ce628a9727cc6b4a122e7d562f58351@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.68f72637.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.70f29c63.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.30f29c63.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.58f72637.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.48f72637.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383334-dc2dab29d6d1ede4ea42b08f6b4f60fa
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528114769650"
+isSender="true" 
+transactionId="z9hg4bk42b4.68f72637.0" 
+callId="6ce628a9727cc6b4a122e7d562f58351@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 6ce628a9727cc6b4a122e7d562f58351@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.68f72637.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.70f29c63.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.30f29c63.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.58f72637.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.48f72637.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383334-dc2dab29d6d1ede4ea42b08f6b4f60fa
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:5060>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528114770154"
+isSender="true" 
+transactionId="z9hg4bk42b4.68f72637.0" 
+callId="6ce628a9727cc6b4a122e7d562f58351@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 6ce628a9727cc6b4a122e7d562f58351@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.68f72637.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.70f29c63.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.30f29c63.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.58f72637.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.48f72637.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383334-dc2dab29d6d1ede4ea42b08f6b4f60fa
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:5060>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528114771155"
+isSender="true" 
+transactionId="z9hg4bk42b4.68f72637.0" 
+callId="6ce628a9727cc6b4a122e7d562f58351@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 6ce628a9727cc6b4a122e7d562f58351@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.68f72637.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.70f29c63.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.30f29c63.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.58f72637.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.48f72637.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383334-dc2dab29d6d1ede4ea42b08f6b4f60fa
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:5060>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528114773157"
+isSender="true" 
+transactionId="z9hg4bk42b4.68f72637.0" 
+callId="6ce628a9727cc6b4a122e7d562f58351@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 6ce628a9727cc6b4a122e7d562f58351@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.68f72637.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.70f29c63.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.30f29c63.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.58f72637.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.48f72637.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383334-dc2dab29d6d1ede4ea42b08f6b4f60fa
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:5060>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528114777159"
+isSender="true" 
+transactionId="z9hg4bk42b4.68f72637.0" 
+callId="6ce628a9727cc6b4a122e7d562f58351@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 6ce628a9727cc6b4a122e7d562f58351@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.68f72637.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.70f29c63.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.30f29c63.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.58f72637.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.48f72637.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383334-dc2dab29d6d1ede4ea42b08f6b4f60fa
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:5060>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="163.17.21.86:5080" 
+to="163.17.21.186:5060" 
+time="1528114781162"
+isSender="true" 
+transactionId="z9hg4bk42b4.68f72637.0" 
+callId="6ce628a9727cc6b4a122e7d562f58351@163.17.21.86" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+CSeq: 1 INVITE
+Call-ID: 6ce628a9727cc6b4a122e7d562f58351@163.17.21.86
+From: <sip:testB@open-ims.test>;tag=12345
+To: <sip:test1@open-ims.test>;tag=4321
+Via: SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.68f72637.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.70f29c63.0,SIP/2.0/UDP 163.17.21.187;branch=z9hG4bK42b4.30f29c63.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.58f72637.0,SIP/2.0/UDP 163.17.21.186;branch=z9hG4bK42b4.48f72637.0,SIP/2.0/UDP 163.17.21.86:5090;branch=z9hG4bK-383334-dc2dab29d6d1ede4ea42b08f6b4f60fa
+Record-Route: <sip:mt@scscf.open-ims.test:5060;lr>,<sip:mt@scscf.open-ims.test:5060;lr>,<sip:mo@scscf.open-ims.test:5060;lr>
+Contact: "Shootme" <sip:163.17.21.86:5060>
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= shootme
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="shootme"
+ name="shootme"
+ auxInfo="null"/>
+ 
