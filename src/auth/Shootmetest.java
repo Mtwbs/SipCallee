@@ -15,8 +15,16 @@ import javax.sip.header.*;
 import javax.sip.message.*;
 
 import Callee.PCS_RTP_Callee;
+import de.javawi.jstun.attribute.MessageAttributeException;
+import de.javawi.jstun.attribute.MessageAttributeParsingException;
+import de.javawi.jstun.header.MessageHeaderParsingException;
+import de.javawi.jstun.test.BindingLifetimeTest;
+import de.javawi.jstun.util.UtilityException;
 
-
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.SocketException;
+import java.net.UnknownHostException;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.text.ParseException;
@@ -41,9 +49,7 @@ public class Shootmetest implements SipListener {
 
     public static SipStack sipStack;
 
-    public static final String MyAddress = "163.17.21.85";
 
-    public static final int MyPort = 5020;
 
     private Request ackRequest;
 
@@ -55,7 +61,7 @@ public class Shootmetest implements SipListener {
     
     String transport = "udp";
     
-    String peerHostPort = "163.17.21.90:5060";
+    String peerHostPort = "163.17.21.221:5060";
     
     public ListeningPoint udpListeningPoint;
     
@@ -93,19 +99,44 @@ public class Shootmetest implements SipListener {
 	  
 	  private static int localRtcpPort;
 	  
-	  public static String Caller="mom";
+	  public static String Caller="CN";
 	  
-	  public static String Callee="sis";
+	  public static String Callee="MN";
 	  
-	  public static String Transferor="sis";
+	  public static String Transferor="MN";
 	  
-	  public static String Transferee="calleelv";
+	  public static String Transferee="MN";
 	  
-	  public static String TransferTarget="mom";
+	  public static String TransferTarget="CN";
 	  
 	  private static Referer subscriber = new Referer();
 	  
+	  private static BindingLifetimeTest getstun = new BindingLifetimeTest("163.17.21.221", 3478);
 	  
+	  public static  String MyAddress;
+	  
+	  public static  int MyPort;
+	  
+	  public static String localIP;
+	  
+	  private void STUNPut()
+			    throws SocketException, UnknownHostException, MessageAttributeParsingException, MessageHeaderParsingException, UtilityException, IOException, MessageAttributeException
+			  {
+			    getstun.test();
+			    MyPort = getstun.ma.getPort();
+			    MyAddress = getstun.ma.getAddress().toString();
+			    
+			    System.out.println("MyPort"+MyPort);
+			    System.out.println("MyAddress"+MyAddress);
+			  }
+  
+  public void getlocalIP()
+  	    throws UnknownHostException
+  	  {
+  	    localIP = InetAddress.getLocalHost().getHostAddress();
+  	    System.out.println("localIP"+localIP);
+  	  }
+  
 	  
 	 private void recordingSocket(String IPcaller, String RTPportcaller, String RTCPportcaller)
 	  {
@@ -990,7 +1021,7 @@ public class Shootmetest implements SipListener {
 
     public void sendInviteOK() {
     	//new Timer().schedule(new MyTimerTask(this), 100);	
-    	//³]©w¶Ç¥X200OK
+    	//ï¿½]ï¿½wï¿½Ç¥X200OK
     	answer=1;
         try {
         	/*
@@ -1093,6 +1124,15 @@ public class Shootmetest implements SipListener {
     
     
     public  void init() {
+    	 try
+         {
+           new Shootmetest().STUNPut();
+           new Shootmetest().getlocalIP();
+         }
+         catch (MessageHeaderParsingException|UtilityException|IOException|MessageAttributeException e)
+         {
+           ((Throwable) e).printStackTrace();
+         }
         SipFactory sipFactory = null;
         sipStack = null;
         sipFactory = SipFactory.getInstance();
@@ -1107,7 +1147,7 @@ public class Shootmetest implements SipListener {
 
         // The following properties are specific to nist-sip
         // and are not necessarily part of any other jain-sip
-        // implementation.å±¥è??
+        // implementation.å±¥ï¿½??
         // You can set a max message size for tcp transport to
         // guard against denial of service attack.
         properties.setProperty("gov.nist.javax.sip.DEBUG_LOG",
@@ -1140,7 +1180,7 @@ public class Shootmetest implements SipListener {
             headerFactory = sipFactory.createHeaderFactory();
             addressFactory = sipFactory.createAddressFactory();
             messageFactory = sipFactory.createMessageFactory();
-            udpListeningPoint = sipStack.createListeningPoint(MyAddress,
+            udpListeningPoint = sipStack.createListeningPoint(localIP,
             		MyPort, "udp");
             sipProvider = sipStack.createSipProvider(udpListeningPoint);
             Shootmetest listener = this;
@@ -1225,7 +1265,7 @@ public class Shootmetest implements SipListener {
 			String host = MyAddress;
             	//Header contactH;
             			contactH = headerFactory.createHeader("Contact","<sip:"+Callee+"@"+MyAddress+":"+MyPort+";transport=udp>;expires=60;+g.oma.sip-im;language=\"en,fr\";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs\";+g.3gpp.cs-voice");
-                        //contactH = headerFactory.createHeader("Contact","<sip:sis@163.17.21.85:5020;transport=udp>;expires=60;+g.oma.sip-im;language=\"en,fr\";+g.3gpp.smsip;+g.oma.sip-im.large-message");
+                        //contactH = headerFactory.createHeader("Contact","<sip:MN@163.17.21.71:5020;transport=udp>;expires=60;+g.oma.sip-im;language=\"en,fr\";+g.3gpp.smsip;+g.oma.sip-im.large-message");
                         request.addHeader(contactH);
                         
             // Create the contact name address.
@@ -1243,7 +1283,7 @@ public class Shootmetest implements SipListener {
             request.addHeader(contactHeader);
         
            
-            // You can add extension headers of your own making ­
+            // You can add extension headers of your own makingï¿½ï¿½
             // to the outgoing SIP request.
             // Add the extension header.
             Header extensionHeader = headerFactory.createHeader("My-Header",
@@ -1286,7 +1326,7 @@ public class Shootmetest implements SipListener {
                     headerFactory.createAllowHeader(Request.INVITE);
                   request.addHeader(allow5);
 
-            // Supported?”¯???
+            // Supported?ï¿½ï¿½???
             /*
             SupportedHeader supportedHeader =
                 headerFactory.createSupportedHeader("100rel" + "," +
@@ -1497,7 +1537,7 @@ public class Shootmetest implements SipListener {
 	      AuthorizationHeader ah_r = 
 	        headerFactory.createAuthorizationHeader(ah_c.getScheme());
 	     
-/*ª`·N*/	  URI request_uri = req.getRequestURI();
+/*ï¿½`ï¿½N*/	  URI request_uri = req.getRequestURI();
 	      String request_method = req.getMethod();
 	      String nonce = ah_c.getNonce();
 	      String algrm = ah_c.getAlgorithm();

@@ -40,7 +40,7 @@ import jlibrtp.RTPSession;
 public class PCS_RTP_Callee
   implements RTPAppIntf
 {
-  private static BindingLifetimeTest getstun = new BindingLifetimeTest("163.17.21.90", 3478);
+  private static BindingLifetimeTest getstun = new BindingLifetimeTest("163.17.21.221", 3478);
   private static String remoteIP = "";
   private static int remoteRtpPort = 0;
   private static int remoteRtcpPort = 0;
@@ -94,6 +94,22 @@ public class PCS_RTP_Callee
   private boolean isReceived = false;
   public static PCS_UI ui;
   private static String Parti_Caller;
+  
+  private void STUNPut()
+		    throws SocketException, UnknownHostException, MessageAttributeParsingException, MessageHeaderParsingException, UtilityException, IOException, MessageAttributeException
+		  {
+		    System.out.println(localRtpPort + " SAME111111@@@@@@@");
+		    getstun.test2(localRtpPort);
+		    localRtpPort = getstun.ma.getPort();
+		    
+		    System.out.println(localRtpPort + " SAME222222@@@@@@@");
+		    
+		    System.out.println(localRtcpPort + " SAME111111@@@@@@@");
+		    getstun.test2(localRtcpPort);
+		    localRtcpPort = getstun.ma.getPort();
+		    
+		    System.out.println(localRtcpPort + " SAME222222@@@@@@@");
+		  }
   
   public void checkDeviceIsOK()
   {
@@ -225,7 +241,14 @@ public class PCS_RTP_Callee
   
   public void addNewParticipant(String networkAddress, int dstRtpPort, int dstRtcpPort, int srcRtpPort, int srcRtcpPort)
   {
- 
+	  try
+	    {
+	      new PCS_RTP_Callee().STUNPut();
+	    }
+	    catch (MessageHeaderParsingException|UtilityException|IOException|MessageAttributeException e1)
+	    {
+	      e1.printStackTrace();
+	    }
     try
     {
       this.rtpSocket = new DatagramSocket(srcRtpPort);

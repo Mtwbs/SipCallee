@@ -46,8 +46,8 @@ public class Referer
 {
 	
 	
-  private static String Myaddress="163.17.21.86";
-  private static int MyPort=5020;
+  //private static String Myaddress="163.17.21.85";
+ // private static int MyPort=5020;
  // private static String Transferor;
  // private static String Transferee;
   private static SipProvider sipProvider;
@@ -63,7 +63,7 @@ public class Referer
   public void setReferer(String Transferor)
   {
     Transferor = Transferor;
-    System.out.println("System.out.println(Transferor);"+Transferor);
+    System.out.println("System.out.println(Transferor)+++++++++;"+Transferor);
     
   }
   
@@ -71,7 +71,7 @@ public class Referer
   {
     Transferee = Transferee;
     
-    System.out.println("System.out.println(Transferee);"+Transferee);
+    System.out.println("System.out.println(Transferee)++++++++++++++;"+Transferee);
   }
   private static void usage()
   {
@@ -169,8 +169,8 @@ public class Referer
       
       System.out.println("System.out.println(Transferor);"+Transferor);
       System.out.println("System.out.println(Transferee);"+Transferee);
-      
-      
+      System.out.println("System.out.pxcxcsferee);"+TransferTarget);
+      System.out.println("System.out.prxcxcsa;"+targetDialog);
       SipURI fromAddress = addressFactory.createSipURI(fromName, fromSipAddress);
       
       Address fromNameAddress = addressFactory.createAddress(fromAddress);
@@ -190,12 +190,12 @@ public class Referer
 
       URI requestURI = addressFactory.createURI("sip:" + Transferee + "@open-ims.test");
       
-      System.out.println(Myaddress);
-      System.out.println(MyPort);
+      System.out.println(Shootmetest.MyAddress);
+      System.out.println(Shootmetest.MyPort);
 
       ArrayList viaHeaders = new ArrayList();
-      ViaHeader viaHeader = headerFactory.createViaHeader(Myaddress, 
-        MyPort, 
+      ViaHeader viaHeader = headerFactory.createViaHeader(Shootmetest.MyAddress, 
+    		  Shootmetest.MyPort, 
         transport, null);
       
 
@@ -217,10 +217,10 @@ public class Referer
         "REFER", callIdHeader, cSeqHeader, fromHeader, 
         toHeader, viaHeaders, maxForwards);
       
-      Header contactH = headerFactory.createHeader("Contact", "<sip:" + Transferor + "@" + Myaddress + ":" + MyPort + ";transport=udp>;expires=60;+g.oma.sip-im;language=\"en,fr\";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs\";+g.3gpp.cs-voice");
+      Header contactH = headerFactory.createHeader("Contact", "<sip:" + Transferor + "@" + Shootmetest.MyAddress + ":" + Shootmetest.MyPort + ";transport=udp>;expires=60;+g.oma.sip-im;language=\"en,fr\";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs\";+g.3gpp.cs-voice");
       request.addHeader(contactH);
       
-      Address routeaddress = addressFactory.createAddress("sip:orig@163.17.21.186:5060;lr");
+      Address routeaddress = addressFactory.createAddress("sip:orig@163.17.21.223:5060;lr");
       RouteHeader routeHeader = headerFactory.createRouteHeader(routeaddress);
       request.addHeader(routeHeader);
       
