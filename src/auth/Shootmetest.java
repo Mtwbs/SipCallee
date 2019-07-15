@@ -119,7 +119,7 @@ public class Shootmetest implements SipListener {
 	  
 	  public static String localIP;
 	  
-	  private void STUNPut()
+	  public void STUNPut()
 			    throws SocketException, UnknownHostException, MessageAttributeParsingException, MessageHeaderParsingException, UtilityException, IOException, MessageAttributeException
 			  {
 			    getstun.test();
@@ -210,7 +210,12 @@ public class Shootmetest implements SipListener {
             System.out.println("processInvite_processInvite_processInvite_END");
         } else if (request.getMethod().equals(Request.ACK)) {
         	System.out.println("processAck_processAck_processAck");
-            processAck(requestEvent, serverTransactionId);
+            try {
+				processAck(requestEvent, serverTransactionId);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
             System.out.println("processAck_processAck_processAck_END");
         } else if (request.getMethod().equals(Request.BYE)) {
             processBye(requestEvent, serverTransactionId);
@@ -436,8 +441,9 @@ public class Shootmetest implements SipListener {
 
     /**
      * Process the ACK request. Send the bye and complete the call flow.
+     * @throws IOException 
      */
-    public void processAck(RequestEvent requestEvent, ServerTransaction serverTransaction)
+    public void processAck(RequestEvent requestEvent, ServerTransaction serverTransaction) throws IOException
     {
     	System.out.println("shootme: got an ACK!xxxxxxxxxxxx ");
     
@@ -910,9 +916,9 @@ public class Shootmetest implements SipListener {
           okResponse.setHeader(secServerList);
         }
 
-        if(answer ==1){
-        	new Timer().schedule(new MyTimerTask(this), 100);	
-        }
+        
+        //	new Timer().schedule(new MyTimerTask(this), 100);	
+        
       
         subscriber.RefererEngineStart(MyAddress, MyPort, sipProvider);
        // subscriber.setReferee(request.getHeader("From").toString().split("sip:|@")[1]);
@@ -966,11 +972,12 @@ public class Shootmetest implements SipListener {
         format[0] = Integer.toString(0);
         
         Vector mds = new Vector();
+        GreetingClient ttt =new GreetingClient();
         localRtpPort = (int)(Math.random() * 32767.0D + 24576.0D);
         MediaDescription md1 = sdpFactory.createMediaDescription("audio", localRtpPort, 1, "RTP/AVP", format);
         
         Vector attrs1 = new Vector();
-        localRtcpPort = (int)(Math.random() * 32767.0D + 24576.0D);
+        localRtcpPort = localRtpPort+1;/*(int)(Math.random() * 32767.0D + 24576.0D);*/
         Attribute attr1 = sdpFactory.createAttribute("rtcp", Integer.toString(localRtcpPort));
         
         Attribute attr2 = sdpFactory.createAttribute("rtpmap", "0 pcmu/8000");
@@ -1022,7 +1029,7 @@ public class Shootmetest implements SipListener {
     public void sendInviteOK() {
     	//new Timer().schedule(new MyTimerTask(this), 100);	
     	//�]�w�ǥX200OK
-    	answer=1;
+    	
         try {
         	/*
         	System.out.println(inviteTid.getState()+"11111111111111111");
@@ -1264,7 +1271,7 @@ public class Shootmetest implements SipListener {
             // Create contact headers
 			String host = MyAddress;
             	//Header contactH;
-            			contactH = headerFactory.createHeader("Contact","<sip:"+Callee+"@"+MyAddress+":"+MyPort+";transport=udp>;expires=60;+g.oma.sip-im;language=\"en,fr\";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs\";+g.3gpp.cs-voice");
+            			contactH = headerFactory.createHeader("Contact","<sip:"+Callee+"@"+MyAddress+":"+MyPort+";q=1;transport=udp>;expires=60;+g.oma.sip-im;language=\"en,fr\";+g.3gpp.smsip;+g.oma.sip-im.large-message;audio;+g.3gpp.icsi-ref=\"urn%3Aurn-7%3A3gpp-application.ims.iari.gsma-vs\";+g.3gpp.cs-voice");
                         //contactH = headerFactory.createHeader("Contact","<sip:MN@163.17.21.71:5020;transport=udp>;expires=60;+g.oma.sip-im;language=\"en,fr\";+g.3gpp.smsip;+g.oma.sip-im.large-message");
                         request.addHeader(contactH);
                         

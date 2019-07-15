@@ -1,6 +1,7 @@
 package Callee;
 
 import de.javawi.jstun.attribute.MappedAddress;
+
 import de.javawi.jstun.attribute.MessageAttributeException;
 import de.javawi.jstun.attribute.MessageAttributeParsingException;
 import de.javawi.jstun.header.MessageHeaderParsingException;
@@ -8,6 +9,7 @@ import de.javawi.jstun.test.BindingLifetimeTest;
 import de.javawi.jstun.util.UtilityException;
 
 import auth.Shootmetest;
+import auth.GreetingClient;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
@@ -50,9 +52,10 @@ public class PCS_RTP_Callee
   
   
   
-  private void UDPping(int srcPORT, int dstPORT)
+  private static void UDPping(int srcPORT, int dstPORT)
     throws IOException
   {
+	  System.out.println("RRRRR"+srcPORT+dstPORT);
     DatagramSocket clientSocket = new DatagramSocket(new InetSocketAddress(srcPORT));
     InetAddress IPAddress = InetAddress.getByName(remoteIP);
     
@@ -63,13 +66,13 @@ public class PCS_RTP_Callee
     
     DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, dstPORT);
     clientSocket.send(sendPacket);
-    
+    System.out.println("UDPping");
     clientSocket.close();
   }
   
   private Shootmetest test = new Shootmetest();
-  
-  public void Port()
+  private GreetingClient rtp = new GreetingClient();
+  public void Port() throws IOException
   {
     remoteIP = this.test.getCallerIP();
     remoteRtpPort = Integer.valueOf(this.test.getCallerRTPport()).intValue();
@@ -81,6 +84,7 @@ public class PCS_RTP_Callee
     System.out.println(" Caller remote Rtcp Port: " + remoteRtcpPort);
     System.out.println(" Callee local Rtp Port: " + localRtpPort);
     System.out.println(" Callee local Rtcp Port: " + localRtcpPort);
+  //  UDPping(localRtpPort,remoteRtpPort);
   }
   
   private final int BUFFER_SIZE = 1024;
@@ -172,7 +176,6 @@ public class PCS_RTP_Callee
   {
     ui = new PCS_UI(title);
     
-
     WindowAdapter adapter = new WindowAdapter()
     {
       public void windowClosing(WindowEvent e)
@@ -198,6 +201,7 @@ public class PCS_RTP_Callee
         if (PCS_RTP_Callee.ui.getButtonText() == "Answer"){
         	
         	PCS_RTP_Callee.this.test.sendInviteOK();
+        	
         	PCS_RTP_Callee.ui.setButtonText("End");
         	PCS_RTP_Callee.ui.setStateText("Talking...");
         }else{
@@ -241,6 +245,7 @@ public class PCS_RTP_Callee
   
   public void addNewParticipant(String networkAddress, int dstRtpPort, int dstRtcpPort, int srcRtpPort, int srcRtcpPort)
   {
+	
 	  try
 	    {
 	      new PCS_RTP_Callee().STUNPut();
@@ -249,6 +254,7 @@ public class PCS_RTP_Callee
 	    {
 	      e1.printStackTrace();
 	    }
+	    
     try
     {
       this.rtpSocket = new DatagramSocket(srcRtpPort);
@@ -355,15 +361,16 @@ public class PCS_RTP_Callee
     startTalking();
   }
   
-  public static void main(String[] args)
+  public static void main(String [] args)
   {
+	  
 	new Shootmetest().init();
-    PCS_RTP_Callee obj = new PCS_RTP_Callee();
-    
+    PCS_RTP_Callee obj = new PCS_RTP_Callee();    
+    obj.setCalleeUI("This is Callee!");
     obj.checkDeviceIsOK();
     obj.setAudioFormat();
     obj.initRecorder();
     obj.initPlayer();
-    obj.setCalleeUI("This is Callee(Referer)!");
+    
   }
 }
