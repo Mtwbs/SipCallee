@@ -65,6 +65,19 @@ public class BindingLifetimeTest
     this.timer.schedule(task, this.binarySearchLifetime);
     LOGGER.debug("Timer scheduled initially: " + this.binarySearchLifetime + ".");
   }
+  public void test3()
+		    throws UtilityException, SocketException, UnknownHostException, IOException, MessageAttributeParsingException, MessageAttributeException, MessageHeaderParsingException
+		  {
+		    this.initialSocket = new DatagramSocket();
+		    this.initialSocket.connect(InetAddress.getByName(this.stunServer), this.port);
+		    this.initialSocket.setSoTimeout(this.timeout);
+		    if (bindingCommunicationInitialSocket()) {
+		      return;
+		    }
+		    BindingLifetimeTask task = new BindingLifetimeTask();
+		    this.timer.schedule(task, this.binarySearchLifetime);
+		    LOGGER.debug("Timer scheduled initially: " + this.binarySearchLifetime + ".");
+		  }
   
   public void test2(int defPORT)
     throws UtilityException, SocketException, UnknownHostException, IOException, MessageAttributeParsingException, MessageAttributeException, MessageHeaderParsingException

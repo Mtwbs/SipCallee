@@ -1,6 +1,7 @@
 package Callee;
 
 import de.javawi.jstun.attribute.MappedAddress;
+
 import de.javawi.jstun.attribute.MessageAttributeException;
 import de.javawi.jstun.attribute.MessageAttributeParsingException;
 import de.javawi.jstun.header.MessageHeaderParsingException;
@@ -8,6 +9,7 @@ import de.javawi.jstun.test.BindingLifetimeTest;
 import de.javawi.jstun.util.UtilityException;
 
 import auth.Shootmetest;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
@@ -68,7 +70,22 @@ public class PCS_RTP_Callee
   }
   
   private Shootmetest test = new Shootmetest();
-  
+//  private GreetingClient rtp = new GreetingClient();
+  private void STUNPut()
+		    throws SocketException, UnknownHostException, MessageAttributeParsingException, MessageHeaderParsingException, UtilityException, IOException, MessageAttributeException
+		  {
+		    System.out.println(localRtpPort + " SAME111111@@@@@@@");
+		    getstun.test2(localRtpPort);
+		    localRtpPort = getstun.ma.getPort();
+		    
+		    System.out.println(localRtpPort + " SAME222222@@@@@@@");
+		    
+		    System.out.println(localRtcpPort + " SAME111111@@@@@@@");
+		    getstun.test2(localRtcpPort);
+		    localRtcpPort = getstun.ma.getPort();
+		    
+		    System.out.println(localRtcpPort + " SAME222222@@@@@@@");
+		  }
   public void Port()
   {
     remoteIP = this.test.getCallerIP();
@@ -95,21 +112,7 @@ public class PCS_RTP_Callee
   public static PCS_UI ui;
   private static String Parti_Caller;
   
-  private void STUNPut()
-		    throws SocketException, UnknownHostException, MessageAttributeParsingException, MessageHeaderParsingException, UtilityException, IOException, MessageAttributeException
-		  {
-		    System.out.println(localRtpPort + " SAME111111@@@@@@@");
-		    getstun.test2(localRtpPort);
-		    localRtpPort = getstun.ma.getPort();
-		    
-		    System.out.println(localRtpPort + " SAME222222@@@@@@@");
-		    
-		    System.out.println(localRtcpPort + " SAME111111@@@@@@@");
-		    getstun.test2(localRtcpPort);
-		    localRtcpPort = getstun.ma.getPort();
-		    
-		    System.out.println(localRtcpPort + " SAME222222@@@@@@@");
-		  }
+
   
   public void checkDeviceIsOK()
   {
@@ -198,6 +201,7 @@ public class PCS_RTP_Callee
         if (PCS_RTP_Callee.ui.getButtonText() == "Answer"){
         	
         	PCS_RTP_Callee.this.test.sendInviteOK();
+        	
         	PCS_RTP_Callee.ui.setButtonText("End");
         	PCS_RTP_Callee.ui.setStateText("Talking...");
         }else{
@@ -241,6 +245,7 @@ public class PCS_RTP_Callee
   
   public void addNewParticipant(String networkAddress, int dstRtpPort, int dstRtcpPort, int srcRtpPort, int srcRtcpPort)
   {
+	 
 	  try
 	    {
 	      new PCS_RTP_Callee().STUNPut();
@@ -335,6 +340,18 @@ public class PCS_RTP_Callee
         this.isReceived = true;
       }
     }
+    if (speaker != null) {
+        if (speaker != null)
+        {
+          byte[] data = frame.getConcatenatedData();
+          speaker.write(data, 0, data.length); 
+          if (!isReceived)
+          {
+            System.out.println("Received callee's data");
+            isReceived = true;
+          }
+        }
+      }
   }
   
   public void userEvent(int type, Participant[] participant) {}
@@ -355,15 +372,16 @@ public class PCS_RTP_Callee
     startTalking();
   }
   
-  public static void main(String[] args)
+  public static void main(String [] args)
   {
+	  
 	new Shootmetest().init();
-    PCS_RTP_Callee obj = new PCS_RTP_Callee();
-    
+    PCS_RTP_Callee obj = new PCS_RTP_Callee();    
+    obj.setCalleeUI("This is Target!");
     obj.checkDeviceIsOK();
     obj.setAudioFormat();
     obj.initRecorder();
     obj.initPlayer();
-    obj.setCalleeUI("This is Callee(Referer)!");
+    
   }
 }

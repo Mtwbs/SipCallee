@@ -62,7 +62,7 @@ public class PCS_UI {
 		btnTransfer = new JButton("Transfer");
 		
 		frmCallee.setLocationRelativeTo(null);
-		frmCallee.setTitle("Callee");
+		frmCallee.setTitle("Target");
 		initUI();
 	}
 	
